@@ -1,0 +1,12 @@
+__pycache__/
+*.pyc
+.DS_Store
+.idea/
+.vscode/
+.env
+.env.*
+.venv/
+dist/
+live-*.json
+mcp-config.local.json
+tests/_tmp_real.json

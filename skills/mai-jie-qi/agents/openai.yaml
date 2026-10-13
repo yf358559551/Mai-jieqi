@@ -1,0 +1,13 @@
+interface:
+  display_name: "麦·节气"
+  short_description: "按二十四节气和此刻体感，从麦当劳门店真实菜单里配一餐，附节气卡片"
+  default_prompt: "用 $mai-jie-qi 看看今天是什么节气，帮我在附近麦当劳配一顿应景的，预算 35 元。"
+dependencies:
+  tools:
+    - type: "mcp"
+      value: "mcd-mcp"
+      description: "麦当劳中国门店、菜单、活动日历、价格试算和营养信息"
+      transport: "streamable_http"
+      url: "https://mcp.mcd.cn"
+policy:
+  allow_implicit_invocation: true

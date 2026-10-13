@@ -1,0 +1,57 @@
+{
+  "demo": true,
+  "term": "霜降",
+  "feelings": ["怕冷"],
+  "budget_yuan": 35,
+  "avoid": ["辣"],
+  "candidates": [
+    {
+      "id": "demo-warm-beef",
+      "name": "模拟·热饮牛肉堡餐",
+      "available": true,
+      "meal_complete": true,
+      "items": [
+        {"id": "demo-beef-burger", "name": "模拟牛肉汉堡", "quantity": 1, "tags": ["热食", "谷物"], "kcal": 520, "protein_g": 26, "fat_g": 26},
+        {"id": "demo-hot-latte-m", "name": "模拟热拿铁（中）", "quantity": 1, "tags": ["热饮", "奶香", "咖啡"], "kcal": 160, "protein_g": 8, "fat_g": 7},
+        {"id": "demo-apple-pie", "name": "模拟热苹果派", "quantity": 1, "tags": ["甜", "果味", "热食"], "kcal": 230, "protein_g": 2, "fat_g": 12}
+      ],
+      "quote": {"total_yuan": 32.5, "verified": true, "all_fees_included": true, "store_id": "DEMO-001", "channel": "pickup", "queried_at": "2026-10-24T12:00:00+08:00"}
+    },
+    {
+      "id": "demo-ice-chicken",
+      "name": "模拟·冰可乐炸鸡餐",
+      "available": true,
+      "meal_complete": true,
+      "items": [
+        {"id": "demo-chicken-burger", "name": "模拟鸡腿汉堡", "quantity": 1, "tags": ["热食", "谷物", "油炸"], "kcal": 560, "protein_g": 24, "fat_g": 30},
+        {"id": "demo-fries-m", "name": "模拟薯条（中）", "quantity": 1, "tags": ["油炸"], "kcal": 330, "protein_g": 4, "fat_g": 16},
+        {"id": "demo-cola-m", "name": "模拟冰可乐（中）", "quantity": 1, "tags": ["冰饮", "甜"], "kcal": 150, "protein_g": 0, "fat_g": 0}
+      ],
+      "quote": {"total_yuan": 26.9, "verified": true, "all_fees_included": true, "store_id": "DEMO-001", "channel": "pickup", "queried_at": "2026-10-24T12:00:00+08:00"},
+      "activity": {"name": "模拟周六特惠", "verified": true, "starts_at": "2026-10-24T00:00:00+08:00", "ends_at": "2026-10-24T23:59:59+08:00"}
+    },
+    {
+      "id": "demo-porridge",
+      "name": "模拟·热粥早餐",
+      "available": true,
+      "meal_complete": true,
+      "items": [
+        {"id": "demo-porridge", "name": "模拟鸡肉粥", "quantity": 1, "tags": ["汤粥", "热食"], "kcal": 220, "protein_g": 11, "fat_g": 5},
+        {"id": "demo-egg-muffin", "name": "模拟蛋堡", "quantity": 1, "tags": ["热食", "谷物"], "kcal": 300, "protein_g": 15, "fat_g": 12},
+        {"id": "demo-soy-hot", "name": "模拟热豆浆", "quantity": 1, "tags": ["热饮"], "kcal": 120, "protein_g": 6, "fat_g": 4}
+      ],
+      "quote": {"total_yuan": 19.5, "verified": true, "all_fees_included": true, "store_id": "DEMO-001", "channel": "pickup", "queried_at": "2026-10-24T08:00:00+08:00", "expires_at": "2026-10-24T10:30:00+08:00"}
+    },
+    {
+      "id": "demo-spicy",
+      "name": "模拟·香辣双堡餐",
+      "available": true,
+      "meal_complete": true,
+      "items": [
+        {"id": "demo-spicy-burger", "name": "模拟香辣鸡堡", "quantity": 2, "tags": ["热食", "辣", "油炸"], "kcal": 500, "protein_g": 22, "fat_g": 25},
+        {"id": "demo-hot-tea", "name": "模拟热红茶", "quantity": 1, "tags": ["热饮"], "kcal": 30, "protein_g": 0, "fat_g": 0}
+      ],
+      "quote": {"total_yuan": 31.0, "verified": true, "all_fees_included": true, "store_id": "DEMO-001", "channel": "pickup", "queried_at": "2026-10-24T12:00:00+08:00"}
+    }
+  ]
+}
